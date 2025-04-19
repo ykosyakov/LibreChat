@@ -1,0 +1,8 @@
+# Please consult our docs for more info: https://www.librechat.ai/docs/configuration/docker_override
+
+services:
+  api:
+    volumes:
+    - type: bind
+      source: ./librechat.yaml
+      target: /app/librechat.yaml
