@@ -14,16 +14,3 @@ endpoints:
       summaryModel: "current_model"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
-    - name: "Ollama"
-      apiKey: "ollama"
-      baseURL: "http://host.docker.internal:11434/v1/"
-      models:
-        default: [
-          "llama3:latest",
-          "command-r",
-          "mixtral",
-          "phi3"
-          ]
-        fetch: true # fetching list of models is not supported
-      titleConvo: true
-      titleModel: "current_model"
