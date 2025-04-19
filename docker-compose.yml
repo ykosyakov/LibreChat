@@ -25,7 +25,7 @@ services:
         source: ./.env
         target: /app/.env
       - type: bind
-        source: ./librechat.yaml
+        source: ./librechat.yml
         target: /app/librechat.yaml
       - ./images:/app/client/public/images
       - ./uploads:/app/uploads
